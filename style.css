@@ -35,8 +35,8 @@ footer {
 }
 
 header {
-    padding: 2em 1em;
-    background-color: rgba(242, 187, 155, .3);
+    padding: 3em 1em;
+    background-color: #3B758C;
     border-radius: 1em;
     min-height: 10em;
 }
