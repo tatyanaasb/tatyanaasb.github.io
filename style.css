@@ -6,13 +6,6 @@
     padding: 0;
 }
 body {
-    /*body {
-        background-image: url("../images/unsplashBackground.jpg");
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-position: bottom;
-        background-color: rgb(24, 23, 23);*/
     background-color: #3B758C
 }
 
@@ -73,7 +66,7 @@ nav a {
     color: #3B758C
 }
 nav a:hover {
-    background: dimgray;
+    background: rgba(114, 44, 0, 0.938)
 }
 
 section {
@@ -141,7 +134,6 @@ span {
     justify-content: center;
 }
 #additionalResources article {
-    /*background: rgba(236, 81, 10, 0.973);*/
     margin: .25em;
     padding: .5em;
     border-radius: 1em;
