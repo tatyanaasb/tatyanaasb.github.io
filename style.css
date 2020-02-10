@@ -23,10 +23,14 @@ footer {
 }
 
 header {
-    padding: 2em 0;
+    padding: 2em 2rem;
+    background-color: #5df1de;
+    border-radius: 1em;
+    min-height: 10em;
+        
 }
 header h1 {
-    font-size: 3em;
+    font-size: 5.75em;
 }
 header span {
     font-size: 1.5em;
@@ -63,25 +67,44 @@ section > p {
     margin: 1em 0;
 }
 
+#aboutMe {
+    background-color: #db3a3a;
+    border-radius: 1em;
+    min-height: 10em;
+    padding: 2em;
+}
+
 #projects {
+    background-color: #4919b9;
+    border-radius: 1em;
+    min-height: 10em;
+    padding: 2em;
+}
+
+#projectsList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-column-gap: 1.25em;
 }
-#projects article {
+#projectsList article {
     background: rgba(204, 204, 204, 0.5);
     padding: 1em;
+    margin-top: 1em;
     border-radius: 1em;
     box-shadow: 6px -4px 4px 0px black;
 }
-#projects article img {
+#projectsList article img {
     width: 100%;
     border: 1px solid #333;
 }
 
-    #getInTouch {
+#getInTouch {
         text-align: center;
+        background-color: #93d823;
+        border-radius: 1em;
+        min-height: 10em;
+        padding: 2em;
     }    
 
 #additionalResources {
