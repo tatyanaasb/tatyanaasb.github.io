@@ -5,6 +5,16 @@
     margin: 0;
     padding: 0;
 }
+body {
+    /*body {
+        background-image: url("../images/unsplashBackground.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+        background-color: rgb(24, 23, 23);*/
+    background-color: #3B758C
+}
 
 html {
     font-size: 16px;
@@ -12,8 +22,10 @@ html {
 }
 
 h1, h2, h3 {
-    color: #666;
-
+    color: rgba(243, 194, 99, .75)
+}
+p {
+    color: #2C3B59
 }
 header,
 main,
@@ -23,18 +35,23 @@ footer {
 }
 
 header {
-    padding: 2em 2rem;
-    background-color: #5df1de;
+    padding: 2em 1em;
+    background-color: rgba(242, 187, 155, .3);
     border-radius: 1em;
     min-height: 10em;
-        
 }
 header h1 {
-    font-size: 5.75em;
+    font-size: 3.5em;
+    border-radius: .25em;
+    min-height: 1em;
+    padding: .25em;
+    color: rgba(114, 44, 0, 0.938);
+    
 }
 header span {
     font-size: 1.5em;
-    color: #333
+    padding: 1em;
+    color: rgba(114, 44, 0, 0.938)
 }
 
 nav {
@@ -47,12 +64,12 @@ nav {
     flex-flow: row;
     justify-content: center;
 
-    background: #333;
+    background: rgba(242, 187, 155, .5);
 }
 nav a {
     padding: .5em 2em;
     text-decoration: none;
-    color: #fff
+    color: #3B758C
 }
 nav a:hover {
     background: dimgray;
@@ -67,15 +84,22 @@ section > p {
     margin: 1em 0;
 }
 
+#aboutMe img {
+    width: 35%;
+    border-radius: 3em;
+    float: right;
+    margin: 1em;
+}
+
 #aboutMe {
-    background-color: #db3a3a;
+    background-color: rgba(242, 187, 155, .3);
     border-radius: 1em;
     min-height: 10em;
     padding: 2em;
+    
 }
-
 #projects {
-    background-color: #4919b9;
+    background-color: rgba(242, 187, 155, .3);
     border-radius: 1em;
     min-height: 10em;
     padding: 2em;
@@ -92,7 +116,7 @@ section > p {
     padding: 1em;
     margin-top: 1em;
     border-radius: 1em;
-    box-shadow: 6px -4px 4px 0px black;
+    box-shadow: 6px -4px 4px 0px rgba(0, 0, 0, 0.596);
 }
 #projectsList article img {
     width: 100%;
@@ -101,11 +125,14 @@ section > p {
 
 #getInTouch {
         text-align: center;
-        background-color: #93d823;
+        background-color: rgba(242, 187, 155, .3);
         border-radius: 1em;
         min-height: 10em;
         padding: 2em;
     }    
+span {
+    color: #2C3B59
+}
 
 #additionalResources {
     display: flex;
@@ -122,8 +149,8 @@ section > p {
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
-    background: #666;
-    color: #fff;
+    background: #3B758C;
+    color: rgba(114, 44, 0, 0.938);
     padding: 1em 0;
     text-align: center;
 }
