@@ -57,7 +57,7 @@ nav {
     flex-flow: row;
     justify-content: center;
 
-    background: rgba(242, 187, 155, .5);
+    background: rgb(165, 164, 162);
 }
 nav a {
     padding: .5em 2em;
@@ -66,13 +66,16 @@ nav a {
     color: #3B758C
 }
 nav a:hover {
-    background: rgba(114, 44, 0, 0.938)
+    background: rgba(114, 44, 0, 0.938);
+    color: rgba(243, 195, 99, 0.74);
+
 }
 
 section {
     margin: 1em 0;
-    padding-top: 3em;
-    min-height: 15em;
+    background-color: rgba(242, 187, 155, .3);
+    border-radius: 1em;
+    padding: 2em;
 }
 section > p {
     margin: 1em 0;
@@ -83,20 +86,7 @@ section > p {
     border-radius: 3em;
     float: right;
     margin: 1em;
-}
-
-#aboutMe {
-    background-color: rgba(242, 187, 155, .3);
-    border-radius: 1em;
-    min-height: 10em;
-    padding: 2em;
-    
-}
-#projects {
-    background-color: rgba(242, 187, 155, .3);
-    border-radius: 1em;
-    min-height: 10em;
-    padding: 2em;
+    opacity: .60;
 }
 
 #projectsList {
@@ -107,6 +97,7 @@ section > p {
 }
 #projectsList article {
     background: rgba(204, 204, 204, 0.5);
+    color: rgb(243, 194, 99);
     padding: 1em;
     margin-top: 1em;
     border-radius: 1em;
@@ -116,13 +107,12 @@ section > p {
     width: 100%;
     border: 1px solid #333;
 }
+#projectsList article img:hover {
+    border: 4px solid rgb(233, 224, 95);
+}
 
 #getInTouch {
         text-align: center;
-        background-color: rgba(242, 187, 155, .3);
-        border-radius: 1em;
-        min-height: 10em;
-        padding: 2em;
     }    
 span {
     color: #2C3B59
@@ -146,4 +136,7 @@ footer {
     color: rgba(114, 44, 0, 0.938);
     padding: 1em 0;
     text-align: center;
+}
+#additionalResources article:hover {
+    border: 4px solid rgb(233, 224, 95);
 }
