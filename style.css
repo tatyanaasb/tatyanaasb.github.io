@@ -14,11 +14,11 @@ html {
     margin-top: 3em;
 }
 
-h1, h2, h3 {
-    color: rgba(243, 194, 99, .75)
+h2, h3 {
+    color: rgba(243, 195, 99, 0.925);
 }
 p {
-    color: #2C3B59
+    color: #2C3B59;
 }
 header,
 main,
@@ -29,15 +29,14 @@ footer {
 
 header {
     padding: 3em 1em;
+    padding-bottom: 0;
     background-color: #3B758C;
     border-radius: 1em;
     min-height: 10em;
 }
 header h1 {
     font-size: 3.5em;
-    border-radius: .25em;
-    min-height: 1em;
-    padding: .25em;
+    padding: .05em;
     color: rgba(102, 0, 0, 0.938);
     
 }
@@ -57,18 +56,18 @@ nav {
     flex-flow: row;
     justify-content: center;
 
-    background: rgb(165, 164, 162);
+    background: #3B758C
 }
 nav a {
     padding: .5em 2em;
     font-size: 1.5em;
     text-decoration: none;
-    color: #3B758C
+    color: rgba(102, 0, 0, 0.938);
 }
 nav a:hover {
     background: rgba(102, 0, 0, 0.938);
-    color: rgba(243, 195, 99, 0.74);
-
+    color: rgba(243, 195, 99, 0.925);
+    border: 2px solid rgba(243, 195, 99, 0.925);
 }
 
 section {
@@ -76,6 +75,7 @@ section {
     background-color: rgba(242, 187, 155, .3);
     border-radius: 1em;
     padding: 2em;
+    border: 2px solid  rgba(102, 0, 0, 0.938);
 }
 section > p {
     margin: 1em 0;
@@ -87,7 +87,7 @@ section > p {
     float: right;
     margin: 1em;
     margin-top: auto;
-    border: 5px solid  rgba(102, 0, 0, 0.938);
+    border: 2px solid  rgba(102, 0, 0, 0.938);
 }
 
 #projectsList {
@@ -97,8 +97,8 @@ section > p {
     grid-column-gap: 1.25em;
 }
 #projectsList article {
-    background: rgba(204, 204, 204, 0.5);
-    color: rgb(243, 194, 99);
+    background: rgb(173, 173, 173);
+    color: rgb(243, 209, 99);
     padding: 1em;
     margin-top: 1em;
     border-radius: 1em;
