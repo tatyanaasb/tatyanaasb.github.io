@@ -68,10 +68,9 @@ nav a {
     color: rgba(102, 0, 0, 0.938);
 }
 nav a:hover {
-    /*background: rgb(141, 128, 210);*/
     color: rgba(102, 0, 0, 0.938);
     border: 2px solid rgba(102, 0, 0, 0.938);
-    border-radius: 7em;
+    border-radius: 1em;
 }
 
 section {
