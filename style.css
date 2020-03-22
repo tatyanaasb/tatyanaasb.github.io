@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     background-image: url(images/portfolio_img1.jpg);
     background-repeat: no-repeat;
@@ -19,6 +20,7 @@ html {
 h2, h3, h5 {
     color: #143B69;
 }
+
 p {
     font-size: 1.15em;
     margin-block-start: 1em;
@@ -32,26 +34,8 @@ footer {
     max-width: 700px;
 }
 
-header {
-    width: 60%;
-    margin: 1em auto;
-    padding: 0em 1em;
-    padding-bottom: 0;
-    border-radius: 1em;
-    min-height: 7em;
-}
-header h1 {
-    font-size: 3em;
-    padding: .05em;
-    color: #143B69;
-    
-}
-header span {
-    font-size: 1.5em;
-    padding: 1em 0em;
-    color: #143B69;
-}
 
+/* NAV BAR */
 nav {
     margin: 1em 0 1em 3em; 
     display: flex;
@@ -63,11 +47,11 @@ nav a {
     padding: 1px 0;
     font-size: 1.20em;
     text-decoration: none;
-    color: #143B69;
+    color: #497367;
+    font-weight: bold;
 }
 nav a:hover {
     color: rgb(95, 27, 184);
-    border: 2px solid  #A1B494;
 }
 
 section {
@@ -78,17 +62,40 @@ section {
     border-radius: 1em;
     border: 3px solid  #143B69;
 }
+
 section > p {
     margin: 1em 0;
 }
+/* #aboutMe > div > p {
+    a lerning ref mark for self
+} */
 
+
+/* HEADER*/
+header {
+    width: 60%;
+    margin: 1em auto;
+    padding: 0em 1em;
+}
+
+header h1 {
+    font-size: 3em;
+    padding: .05em;
+    color: #143B69;
+}
+
+header span {
+    font-size: 1.5em;
+    padding: 1em 0.25em;
+    color: #143B69;
+}
+
+
+/* ABOUT */
 #aboutMe {
     display: flex;
     flex-flow: row;
 }
-
-/* #aboutMe > div > p {
-} */
 
 #aboutMe img {
     
@@ -98,6 +105,8 @@ section > p {
     border: 2px solid  rgba(36, 48, 71, .7);
 }
 
+
+/* PROJECTS */
 #projectsList {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -119,16 +128,43 @@ section > p {
     border: 4px solid  rgb(95, 27, 184);
 }
 
-#additionalResources {
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
+hr {
+    margin: .1em;
+    border-width: 1.75px;
+    border-color: #A1B494;
+    outline: none;
 }
-#additionalResources article {
-    margin: .25em;
-    padding: .5em;
-    border-radius: 1em;
+
+
+/* CONTACT BUTTONS */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 7px;
+  }
+
+  .fa:hover {
+    opacity: 0.6;
 }
+
+.fa-linkedin {
+    background: #0B12D7;
+    color: white;
+  }
+  
+.fa-google {
+    background: #dd4b39;
+    color: #497367;
+  }
+
+  .fa-github {
+    background: #6B32B6;
+    color: white;
+  }
 
 footer {
     margin-top: 3em;
@@ -136,14 +172,6 @@ footer {
     color: rgb(218, 218, 218);
     padding: 0;
     text-align: center;
+    text-shadow: 0 0 6px black;
 }
-hr {
-    margin: .1em;
-border-width: 1.75px;
-border-color: #A1B494;
-outline: none;
-
-}
-#additionalResources article:hover {
-    border: 2px solid #143B69;
-}
+        
