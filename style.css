@@ -138,6 +138,11 @@ header span {
 #projectsList article img:hover {
     opacity: 0.6;
 }
+a {
+    text-decoration: none;
+    color: #9e1200;
+    font-size: large;
+}
 
 hr {
     margin: .1em;
