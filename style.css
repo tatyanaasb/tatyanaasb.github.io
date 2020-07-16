@@ -26,7 +26,7 @@ h2, h3, h5 {
 
 p {
     font-size: 1.15em;
-    margin-block-start: 1em;
+    margin-block-start: .5em;
     color: #143B69;
 }
 
@@ -47,14 +47,14 @@ nav {
     display: flex;
     flex-flow: row;
     justify-content: center;
-    
+    flex-wrap: wrap;
     background: #143B69;
     position: fixed;
 }
 
 nav a {
     padding: .5em 2em;
-    font-size: 2em;
+    font-size: 1.70em;
     text-decoration: none;
     color: #497367;
     font-weight: bold;
@@ -138,12 +138,17 @@ header span {
 #projectsList article img:hover {
     opacity: 0.6;
 }
+
 a {
     text-decoration: none;
     color: #9e1200;
     font-size: large;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: #0B12D7;
+}
 hr {
     margin: .1em;
     border-width: 1.75px;
