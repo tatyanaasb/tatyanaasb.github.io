@@ -10,7 +10,8 @@ body {
     background-image: url(images/portfolio_img1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;
 }
 
@@ -25,7 +26,7 @@ h2, h3, h5 {
 
 p {
     font-size: 1.15em;
-    margin-block-start: 1em;
+    margin-block-start: .5em;
     color: #143B69;
 }
 
@@ -33,29 +34,34 @@ header,
 main,
 footer {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 
 /* NAV BAR */
 nav {
-    margin: 1em 0 1em 3em; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    
     display: flex;
-    flex-flow: column;
-    float: right;
-    align-items: flex-end;
+    flex-flow: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #143B69;
+    position: fixed;
 }
 
 nav a {
-    padding: 1px 0;
-    font-size: 1.20em;
+    padding: .5em 2em;
+    font-size: 1.70em;
     text-decoration: none;
     color: #497367;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: rgb(95, 27, 184);
+    color: rgb(101, 125, 231);
 }
 
 section {
@@ -70,21 +76,20 @@ section {
 section > p {
     margin: 1em 0;
 }
-/* #aboutMe > div > p {
+/* #about > div > p {
     a lerning ref mark for self
 } */
 
 
 /* HEADER*/
 header {
-    width: 60%;
     margin: 1em auto;
     padding: 0em 1em;
 }
 
 header h1 {
     font-size: 3em;
-    padding: .05em;
+    padding-top: 3em;
     color: #143B69;
 }
 
@@ -96,15 +101,15 @@ header span {
 
 
 /* ABOUT */
-#aboutMe {
+#about {
     display: flex;
     flex-flow: row;
 }
 
-#aboutMe img {
+#about img {
     border-radius: 1em;
     float: right;
-    margin: 2em 0 1em 2em;
+    margin: 1em 0 1em 2em;
     border: 1.5px solid  rgba(36, 48, 71, .7);
 }
 
@@ -131,9 +136,19 @@ header span {
 }
 
 #projectsList article img:hover {
-    border: 4px solid  rgb(95, 27, 184);
+    opacity: 0.6;
 }
 
+a {
+    text-decoration: none;
+    color: #9e1200;
+    font-size: large;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0B12D7;
+}
 hr {
     margin: .1em;
     border-width: 1.75px;
