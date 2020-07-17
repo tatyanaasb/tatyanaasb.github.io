@@ -1,3 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: .875rem;
+}
+h1 {
+    font-size: 4rem;
+}
+body {
+    background: hsl(210, 36%, 96%);
+    color: hsl(209, 61%, 16%);
+}
+
+
+
+.header-container {
+    min-height: 100vh;
+    background: url(./images/temp-bcg-opt7.jpg) center/cover no-repeat;
+    display: grid;
+    place-items: center;
+}
+.banner {
+    background: rgb(241, 245, 248);
+    padding: 4rem 0;
+    border-radius: .75rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90vw;
+}
+.about-btn {
+    margin-top: 2rem;
+    background: #62a5a5;
+    color: rgb(241, 245, 248);
+}
+.btn {
+    text-transform: uppercase;
+    padding: .4rem .8rem;
+    border-radius: .4rem;
+    border: 2px solid #437e7e;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    outline: none;
+    cursor: pointer;
+}
+.btn:hover {
+    color: #437e7e;
+    background-color: rgb(241, 245, 248);
+}
+.header-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(73, 166, 233, 0.5);
+    display: grid;
+    place-items: center;
+    transition: all 0.3s linear;
+    visibility: hidden;
+    z-index: -10;
+}
+.open-overlay {
+    visibility: visible;
+    z-index: 10;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SET-UP 
 * {
     font-family: sans-serif;
