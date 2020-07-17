@@ -9,52 +9,69 @@
 h1 {
     font-size: 4rem;
 }
+h3 {
+    font-size: 1.25rem;
+    margin: 1em 1em 0 1em;
+}
+p {
+    font-size: 1.15em;
+}
 body {
     background: hsl(210, 36%, 96%);
-    color: hsl(209, 61%, 16%);
+    color: #102a42;
 }
-
-
-
-.header-container {
+.hero {
     min-height: 100vh;
     background: url(./images/temp-bcg-opt7.jpg) center/cover no-repeat;
     display: grid;
     place-items: center;
 }
-.banner {
-    background: rgb(241, 245, 248);
+
+.header-container {
+    background: url(./images/modal-bcg2.jpg);
+    background-color: rgba(255, 255, 255, 0.5);
+    background-blend-mode: lighten;
     padding: 4rem 0;
     border-radius: .75rem;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 90vw;
-}
-.about-btn {
-    margin-top: 2rem;
-    background: #62a5a5;
-    color: rgb(241, 245, 248);
+    max-width: 700px;  /* might want this out */
 }
 .btn {
     text-transform: uppercase;
+    background: transparent;
+    color: #102a42;
     padding: .4rem .8rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    border: 2px solid #102a42;
     border-radius: .4rem;
-    border: 2px solid #437e7e;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     outline: none;
     cursor: pointer;
 }
 .btn:hover {
-    color: #437e7e;
-    background-color: rgb(241, 245, 248);
+    color: rgb(241, 245, 248);
+    background-color: #102a42;
 }
-.header-overlay {
+.about-btn {
+    margin-top: 2rem;
+    background: #62a5a5;
+    border-color: #437e7e;
+    color: rgb(241, 245, 248);
+}
+.about-btn:hover {
+    background-color: rgb(241, 245, 248);
+    color: #437e7e;
+}
+.hero-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(73, 166, 233, 0.5);
+    background: rgba(98, 165, 165, .5);
     display: grid;
     place-items: center;
     transition: all 0.3s linear;
@@ -65,10 +82,52 @@ body {
     visibility: visible;
     z-index: 10;
 }
+.overlay-container {
+    background: rgb(241, 245, 248);
+    border-radius: .75rem;
+    width: 90vw;
+    height: auto;
+    max-width: 700px;
+    text-align: center;
+    position: relative;
+}
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    /* font-size: 2rem; */
+    background: transparent;
+    border-color: transparent;
+    color: rgb(121, 9, 9);
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.close-btn:hover {
+    color: rgb(167, 44, 44);
+    transform: scale(1.3);
+}
 
 
-
-
+/* ABOUT */
+.about {
+    padding: 0em 2em 1.5em;
+    display: flex;
+    flex-flow: row-reverse;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.portfolio-img {
+    margin: auto;
+}
+.about-text {
+    padding: .25em 2em .25em 0;
+}
+.about img {
+    border-radius: 1em;
+    border: 1px solid  #102a42;
+}
 
 
 
