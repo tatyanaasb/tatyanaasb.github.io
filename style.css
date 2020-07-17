@@ -22,13 +22,13 @@ body {
 }
 .hero {
     min-height: 100vh;
-    background: url(./images/temp-bcg-opt7.jpg) center/cover no-repeat;
+    background: url(./images/current-bcg.jpg) center/cover no-repeat;
     display: grid;
     place-items: center;
 }
 
 .header-container {
-    background: url(./images/modal-bcg2.jpg);
+    background: url(./images/header-bcg.jpg);
     background-color: rgba(255, 255, 255, 0.5);
     background-blend-mode: lighten;
     padding: 4rem 0;
