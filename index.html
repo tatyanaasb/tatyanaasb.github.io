@@ -13,41 +13,108 @@
 
 <body>
     <header class="hero">
-        <div class="header-container">
+        <div class="hero-content">
             <h1>Tatyana Bailey</h1>
-            <button class="btn about-btn">About</button>
-            <!-- <button class="btn Skills-btn">Skills</button>
-            <button class="btn projects-btn">Projects</button> -->
-        </div>
+            <button class="modal-btn about-btn" href="#modal1">About</button>
+            <button class="modal-btn skills-btn" href="#modal2">Skills</button>
+            <button class="modal-btn projects-btn" href="#modal3">Projects</button>
+</div>
     </header>
 
-    <!-- overlay -->
-    <div class="hero-overlay">
-        <!-- about -->
-        <div class="overlay-container">
-            <button class="close-btn"><i class="fas fa-times"></i></button>
-            <h3>About</h3>
+    <!-- modal window -->
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h3 class="modal-header">About</h3>
             <div class="about">
                 <div class="portfolio-img">
                     <img src="images/portfolio_tatyana.jpg" alt="portfolio image">
                 </div>
                 <div class="about-text">
                     <p>Full Stack Software Developer with extensive experience in various customer service and administrative roles looking to transition into the software development field. Possessing a strong work ethic, attention to detail, and efficient in problem solving. Seeking a role within an organization where I can utilize my current technical and interpersonal skills, but also be supported in my professional growth.</p>
+                    <button class="close-btn"><i class="fas fa-times"></i></button>
                 </div>
             </div>
-            
         </div>
-        <!-- skills
-        <div class="skills-container">
-            <h3>Skills</h3>
-            <button class="close-btn"><i class="fas fa-times"></i></button>
-        </div>
-        projects
-        <div class="projects-container">
-            <h3>Projects</h3>
-            <button class="close-btn"><i class="fas fa-times"></i></button>
-        </div> -->
     </div>
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h3 class="modal-header">Skills</h3>
+            <div class="skills">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <p><u>TECHNICAL</u>: C# • .NET Core • Active Server Pages / ASP.net • JavaScript • Flexbox • MVC • HTML • CSS • Grid • TDD • Agile (Scrum) • Object Oriented Programming (OOP) • AJAX • JSON • React • Restful APIs • Responsive Design / Mobile • Structured Query Language (SQL) • Relational Databases / MS SQL • Source Control / GitHub • Scheduling • Logistics Management • Administrative</p>
+                <p><u>INTERPERSONAL</u>: Methodical • Dedicated • Analytical • High Level Of Accuracy • Meticulous • Efficient • Training and Development • Customer Service</p>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="modalProjects" class="modal">
+        <div class="modal-content">
+            <h3 class="modal-header">Projects</h3>
+            <div class="projects">
+                <button class="close-btn"><i class="fas fa-times"></i></button>
+                <article>
+                    <h3>QuaranTV</h3>
+                    <a href="https://github.com/tatyanaasb/final-project-team-tv-quarantv" target="_blank"><img src="images/quaranTV_project.jpg"></a>
+                    <p>Interact with others by sharing input of TV shows, and manage personal lists</p>
+                    <a href="https://www.youtube.com/watch?v=FDD_Huf4gUU&t=129s " target="_blank"><i class="fab fa-youtube"></i>   Project Presentation</a>
+                    <div class="underline"></div>
+                    <hr>
+                    <p>JavaScript | C# | HTML | CSS</p>
+                </article>
+                <article>
+                    <h3>Candy Review</h3>
+                    <a href="https://github.com/tatyanaasb/CandyReview" target="_blank"><img src="images/candy-review_project.jpg"></a>
+                    <p>Review candy site</p>
+                    <hr>
+                    <hr>
+                    <p>MVC | HTML | CSS</p>
+                </article>
+                <article>
+                    <h3>Blog Platform</h3>
+                    <a href="https://github.com/tatyanaasb/BlogPlatform" target="_blank"><img src="images/blog_project.jpg"></a>
+                    <p>A hobby blog website</p>
+                    <hr>
+                    <hr>
+                    <p>MVC | HTML | CSS</p>
+                </article>
+                <article>
+                    <h3>AppleJax Music</h3>
+                    <a href="https://github.com/tatyanaasb/module-5-album-collection-apple-jax" target="_blank"><img src="images/applejax_project.jpg"></a>
+                    <p>Application that can keep track of a large collection of music by artists, albums and songs</p>
+                    <hr>
+                    <hr>
+                    <p>JavaScript | C# | HTML | CSS</p>
+                </article>
+                <article>
+                    <h3>Business Portfolio</h3>
+                    <a href="https://github.com/tatyanaasb/CodeBusiness" target="_blank"><img src="images/business_portfolio_project.jpg"></a>
+                    <p>A business portfolio site</p>
+                    <hr>
+                    <hr>
+                    <p>HTML | CSS</p>
+                </article>
+                <article>
+                    <h3>Virtual Pet</h3>
+                    <a href="https://github.com/tatyanaasb/VirtualPet" target="_blank"><img src="images/virtual_pet_project.jpg"></a>
+                    <p>Create and interact with virtual pets</p>
+                    <hr>
+                    <hr>
+                    <p>C# | Visual Studio</p>
+                </article>
+                <article>
+                    <h3>University Clinic Hospital</h3>
+                    <a href="https://github.com/tatyanaasb/UniversityClinicHospital" target="_blank"><img src="images/UCH_project.jpg"></a>
+                    <p>Console application to organize and manage hospital employees and patients</p>
+                    <hr>
+                    <hr>
+                    <p>C# | Visual Studio</p>
+                </article>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
 
 
     <!-- <footer> -->
