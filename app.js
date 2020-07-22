@@ -1,4 +1,4 @@
-const aboutBtn = document.querySelector('.about-btn');
+const aboutBtn = document.querySelector('.project-btn');
 const modal = document.querySelector('.modal');
 const closeBtn = document.querySelector('.close-btn');
 
