@@ -223,7 +223,9 @@ hr {
 .code-link:hover {
     transform: scale(1.3);
 }
-
+.fa-times {
+    font-size: large;
+}
 
 
 
