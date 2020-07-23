@@ -7,14 +7,19 @@
     font-size: .875rem;
 }
 h1 {
-    font-size: 4rem;
+    font-size: 5vw;
 }
-h3 {
-    font-size: 1.25rem;
-    margin: 1em 1em 0 1em;
+h2 {
+    font-size: 1.75vw;
+    padding: .75em;
+    padding-bottom: 0;
 }
-p {
-    font-size: 1.15em;
+h5 {
+    font-size: 1.25vw;
+    /* margin: 1em 1em 0 1em; /* for about-content*/ 
+}
+p, a {
+    font-size: 1.15vw;
 }
 body {
     background: hsl(210, 36%, 96%);
@@ -174,60 +179,59 @@ img {
     opacity: 0;
     transition: .5s ease;
     background-color: #008CBA;
+    box-shadow: 0 0 1px 2px black;
 }
 .project-container:hover .overlay {
-    opacity: .8;
+    opacity: .92;
 }
 .img-text {
     position: absolute;
     color: white;
     font-size: 10px;
+    width: fit-content;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    padding: .5em 1em;
+}
+hr {
+    margin: .4em auto;
+    padding: .1em;
+    background: rgb(218, 218, 218);
+    border: none;
+    width: 15vw;
+    height: .17em;;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1px 10px;
+    /* column-gap: 10%; */
+    /* margin: .25em auto; */
+    justify-content: space-evenly;
+}
+.video-link {
+    text-decoration: none;
+    color: #9e1200;
+}
+.code-link {
+    text-decoration: none;
+    color: black;
+}
+.video-link:hover,
+.code-link:hover {
+    transform: scale(1.3);
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .underline {
-    height: .25em;
-    width: 15em;
-    background: rgb(0, 11, 110);
-    float: right;
-    margin-right: .25em;
-} */
 
 
 
 
 
 /* height: -webkit-fill-available; */
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -358,18 +362,6 @@ header span {
     border: 2px solid rgb(36, 48, 71);
 } */
 
-.project-container:hover .overlay {
-    opacity: .8;
-}
-.img-text {
-    position: absolute;
-    color: white;
-    font-size: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
 
 /* #projectsList article img:hover {
     opacity: 0.6;
@@ -377,19 +369,7 @@ header span {
 
 } */
 
-a {
-    text-decoration: none;
-    color: #9e1200;
-}
 
-a:hover {
-    text-decoration: underline;
-    color: #0B12D7;
-}
-hr {
-    margin: .1em;
-    outline: none;
-}
 
 
 /* CONTACT BUTTONS */
